@@ -1,3 +1,12 @@
-const prompt = require('prompt-sync')({ sigint: true });
+const prompt = require('prompt-sync')({ signit : true });
 
-let value = prompt('Enter a value for [n]:');
+const input = prompt('Enter a value for [n]:'); 
+let n = 0;
+let x = 0; 
+let y = 1;
+
+while (Number !== 'done' ) {
+    n = x + y; 
+}
+
+console.log(n);
